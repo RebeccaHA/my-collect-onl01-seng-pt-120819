@@ -1,12 +1,12 @@
 
 def my_collect(array)
-   collection=[]
+   collection = []
    i=0
   while i > array.length
-   collection<< yield(array[i])
+   collection << yield(array[i])
     i += 1
   end
-  collection
+  return collection
 end
  
 
