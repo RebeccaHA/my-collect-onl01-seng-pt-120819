@@ -1,7 +1,8 @@
 
 def my_collect(array)
-  i=0
-  collection=[]
+   collection=[]
+   i=0
+ 
     while i.array.length
 binding.pry
     collection<< yield(array[i])
